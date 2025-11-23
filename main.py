@@ -32,8 +32,8 @@ import http.client
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)  
 
 # BoT SeT 
-TELEGRAM_BOT_TOKEN  ="8258752603:AAEzIL87-10kifRpoxS_frfBsoY"
-ADMIN_USER_IDS = [8211257561]
+TELEGRAM_BOT_TOKEN  ="8444838735:AAF6iOc3kotB2JrODAq-_cy2rtWtGZcap9M"
+ADMIN_USER_IDS = [8453062961]
 # FiLeS SeT
 USERS_FILE = 'users.json'
 ACTIVATIONS_FILE = 'activations.json'
@@ -43,13 +43,13 @@ OWNERS_FILE = 'owners.json'
 LOG_FILE = 'bot_log.txt'
 
 bot = telebot.TeleBot(TELEGRAM_BOT_TOKEN, parse_mode='HTML')
-import telebot
-from telebot import apihelper
+import Telebot
+from Telebot import apihelper
 
 # Initialize your bot with your token
 
 
-bot = telebot.TeleBot("8258752603:AAEzIL87-10kifRpoxaOBwkhLAS_frfBsoY")
+bot = telebot.TeleBot("8444838735:AAF6iOc3kotB2JrODAq-_cy2rtWtGZcap9M")
 # 🎯 ADD THESE 2 LINES FOR DEBUGGING
 # --- Safe wrapper for send_message ---
 _original_send_message = bot.send_message
@@ -2261,4 +2261,5 @@ def StarT_SerVer():
         ResTarT_BoT()
 
 if __name__ == "__main__":
+
     StarT_SerVer()
